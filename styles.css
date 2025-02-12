@@ -155,3 +155,27 @@ body{
 .location-not-found img{
     width: 80%;
 }
+
+.temperature-unit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.temperature-unit button{
+    background-color: #e6f5fb;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 60px;
+}
+
+.temperature-unit button:hover{
+    background-color: #ababab;
+}
+
+.temperature-unit button.active{
+    background-color: #825a1e;
+    color: white;
+}
