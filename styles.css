@@ -12,15 +12,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background: rgb(0,0,1);
+    background: linear-gradient(90deg, rgba(0,0,1,1) 2%, rgba(38,171,152,1) 50%, rgba(7,7,7,1) 90%);
+    
 }
 
 .container{
     width: 400px;
     height: min-content;
-    background-color: #fff;
+    background-color: #c5c9ae;
     border-radius: 12px;
     padding: 28px;
+}
+
+.container h1{
+    color: rgb(68, 96, 219);
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .search-box{
@@ -48,9 +58,9 @@ body{
 .search-box button{
     margin-left: 10px;
     width: 80px;
-    height: 46px;
+    height: 45px;
     background-color: #e6f5fb;
-    border-radius: 50%;
+    border-radius: 14%;
     cursor: pointer;
     font-size: 20px;
 }
